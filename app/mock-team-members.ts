@@ -1,14 +1,13 @@
 import {Hero} from './team-member';
 
 export const TEAM_MEMBERS: Hero[] = [
-  { id: 11, name: 'Namrata' },
-  { id: 12, name: 'Yashodeep' },
-  { id: 13, name: 'Nilesh' },
-  { id: 14, name: 'Deep' },
-  { id: 15, name: 'Nandlal' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
+  { id: 11, name: 'Namrata', team: 'WIP'},
+  { id: 12, name: 'Yashodeep', team: 'Stellar' },
+  { id: 13, name: 'Madhuri', team: 'Eris' },
+  { id: 14, name: 'Deep', team: 'Jupiter' },
+  { id: 15, name: 'Nandlal', team: 'WIP' },
+  { id: 16, name: 'Sonia', team: 'Stellar' },
+  { id: 17, name: 'Amit Bhargava', team: 'Jupiter' },
+  { id: 18, name: 'Afshar', team: 'Jupiter' },
+  { id: 19, name: 'Vineela S', team: 'WIP' }
 ];
