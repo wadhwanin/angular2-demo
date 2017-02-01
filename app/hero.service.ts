@@ -19,4 +19,9 @@ export class HeroService {
             }
             );
     }
+
+    getMembersOfTeam(team: string): Promise<Hero[]> {
+        return this.getTeamMembers()
+        .then( heros => heros.filter(hero => hero.team === team));
+    }
 }
